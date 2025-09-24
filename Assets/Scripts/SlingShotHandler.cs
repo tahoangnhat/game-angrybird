@@ -45,32 +45,38 @@ public class SlingShotHandler : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame && _slingShotArea.IsWithinSlingShotArea())
+        if (InputManager.WasLeftMouseButtonPressed && _slingShotArea.IsWithinSlingShotArea())
         {
             _clickedWithinArea = true;
         }
-        if (Mouse.current.leftButton.isPressed && _clickedWithinArea && _birdOnSlingShot)
+        if (InputManager.IsLeftMousePressed && _clickedWithinArea && _birdOnSlingShot)
         {
             DrawSlingShot();
             PositionAndRotateAngryBird();
         }
-        if (Mouse.current.leftButton.wasReleasedThisFrame && _birdOnSlingShot)
+        if (InputManager.IsLeftMousePressed && _birdOnSlingShot)
         {
-            _clickedWithinArea = false;
+            if(GameManager.instance.HasEnoughShots())
+            {
+                _clickedWithinArea = false;
+                _birdOnSlingShot = false;
 
-            _spawnedAngryBird.LaunchBird(_directionNormalized, _shotForce);
-            _birdOnSlingShot = false;
+                _spawnedAngryBird.LaunchBird(_directionNormalized, _shotForce);
+                GameManager.instance.UseShot();
+                SetLines(_centerPosition.position);
 
-            SetLines(_centerPosition.position);
-
-            StartCoroutine(SpawnAngryBirdAfterTime());
+                if(GameManager.instance.HasEnoughShots())
+                    {
+                        StartCoroutine(SpawnAngryBirdAfterTime());
+                    }
+            }
         }
     }
 
     #region SlingShot Methods
     private void DrawSlingShot()
     {
-        Vector3 touchPosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector3 touchPosition = Camera.main.ScreenToWorldPoint(InputManager.MousePosition);
 
         _slingShotLinesPosition = _centerPosition.position + Vector3.ClampMagnitude(touchPosition - _centerPosition.position, _maxDistance);
 
