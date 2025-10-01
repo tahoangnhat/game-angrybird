@@ -166,3 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98808cc61e60a5e4ba81bb0c2ff33e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _maxHealth: 3
+  _damageThreshold: 0.2
+  _baddieDeathParticles: {fileID: 162734045033415419, guid: 4c77da23472954a47a6ea1980b1211e0, type: 3}
+  _deathClip: {fileID: 8300000, guid: a78c1568b8f223f489a429a0cc347585, type: 3}
