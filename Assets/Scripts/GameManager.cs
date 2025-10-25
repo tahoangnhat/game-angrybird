@@ -21,6 +21,10 @@ public class GameManager : MonoBehaviour
 
     private List<Baddie> _baddies = new List<Baddie>();
 
+    private int _currentScore;
+
+    private ScoreUI _scoreUI;
+
     private void Awake()
     {
         if (instance == null)
@@ -28,9 +32,12 @@ public class GameManager : MonoBehaviour
             instance = this;
         }
 
+        _scoreUI = FindObjectOfType<ScoreUI>();
+
         _iconHandler = FindObjectOfType<IconHandler>();
 
         Baddie[] baddies = FindObjectsOfType<Baddie>();
+
         for (int i = 0; i < baddies.Length; i++)
         {
             _baddies.Add(baddies[i]);
@@ -85,6 +92,15 @@ public class GameManager : MonoBehaviour
     {
         _baddies.Remove(baddie);
         CheckForAllDeadBaddies();
+    }
+
+    public void AddScore(int points)
+    {
+        _currentScore += points;
+        if(_scoreUI!= null)
+        {
+            _scoreUI.UpdateScore(_currentScore);
+        }
     }
 
     public void CheckForAllDeadBaddies()
