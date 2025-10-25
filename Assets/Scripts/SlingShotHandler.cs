@@ -23,6 +23,7 @@ public class SlingShotHandler : MonoBehaviour
     [SerializeField] private float _elasticDivider = 1.2f;
     [SerializeField] private AnimationCurve _elasticCurve;
     [SerializeField] private float _maxAnimationTime = 1f;
+    [SerializeField] private float _pullForceMultiplier = 1.5f;
 
     [Header("Scripts")]
     [SerializeField] private SlingShotArea _slingShotArea;
@@ -86,6 +87,12 @@ public class SlingShotHandler : MonoBehaviour
 
                 _spawnedAngryBird.LaunchBird(_directionNormalized, _shotForce);
 
+                float currentPullDistance = Vector2.Distance(_slingShotLinesPosition, _centerPosition.position);
+                float pullPercent = currentPullDistance / _maxDistance;
+                float adjustedShotForce = _shotForce * pullPercent * _pullForceMultiplier;
+
+                _spawnedAngryBird.LaunchBird(_directionNormalized, adjustedShotForce);
+
                 SoundManager.Instance.playRandomClip(_elasticReleasedClips, _audioSource);
 
                 GameManager.instance.UseShot();
@@ -132,6 +139,7 @@ public class SlingShotHandler : MonoBehaviour
 
     private void SpawnAngryBird()
     {
+        _shotForce = 5f;
         _elasticTransform.DOComplete();
         SetLines(_idlePosition.position);
 
