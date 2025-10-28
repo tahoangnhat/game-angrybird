@@ -97,7 +97,7 @@ public class GameManager : MonoBehaviour
     public void AddScore(int points)
     {
         _currentScore += points;
-        if(_scoreUI!= null)
+        if (_scoreUI != null)
         {
             _scoreUI.UpdateScore(_currentScore);
         }
@@ -115,17 +115,33 @@ public class GameManager : MonoBehaviour
 
     private void WinGame()
     {
+        int idx = SceneManager.GetActiveScene().buildIndex;
+        LevelScoreService.SetBestScore(idx, _currentScore);
+
+        int count = SceneManager.sceneCountInBuildSettings;
+        int sum = 0;
+        for (int i = 0; i < count; i++)
+        {
+            int best = LevelScoreService.GetBestScore(i);
+            Debug.Log($"Best[{i}]={best}");
+            sum += best;
+        }
+        Debug.Log($"Total={sum}, currentLevel={idx}, currentScore={_currentScore}");
+
+
         _restartScreenObject.SetActive(true);
         _slingShotHandler.enabled = false;
+
+
 
         //do we have more lv to load?
         int currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
         int maxLevelIndex = SceneManager.sceneCountInBuildSettings;
-        if(currentLevelIndex + 1 < maxLevelIndex)
+        if (currentLevelIndex + 1 < maxLevelIndex)
         {
             _nextLevelImage.enabled = true;
         }
-         
+
     }
 
     public void RestartGame()
@@ -141,4 +157,5 @@ public class GameManager : MonoBehaviour
 
 
     #endregion
+
 }
