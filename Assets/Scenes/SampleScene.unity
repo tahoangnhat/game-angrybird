@@ -1732,9 +1732,9 @@ MonoBehaviour:
   _idlePosition: {fileID: 2136650346}
   _elasticTransform: {fileID: 348331668}
   _maxDistance: 1.5
-  _shotForce: 5
+  _shotForce: 8
   _timeBetweenBirdRespawns: 2
-  _elasticDivider: 1.2
+  _elasticDivider: 1.5
   _elasticCurve:
     serializedVersion: 2
     m_Curve:
@@ -1796,7 +1796,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _maxAnimationTime: 0.5
-  _pullForceMultiplier: 1.5
+  _pullForceMultiplier: 2
   _slingShotArea: {fileID: 549443895}
   _cameraManager: {fileID: 588744198}
   _angryBirdPrefab: {fileID: 4932591659203882113, guid: c5adfc454b752e94493e08cf6384f7cb, type: 3}
@@ -3082,6 +3082,7 @@ MonoBehaviour:
   - {fileID: 1343589801}
   - {fileID: 527956853}
   _usedColor: {r: 0.454902, g: 0.454902, b: 0.454902, a: 0}
+  _defaultColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1642318331
 MonoBehaviour:
   m_ObjectHideFlags: 0
