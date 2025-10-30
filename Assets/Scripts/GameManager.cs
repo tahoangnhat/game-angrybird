@@ -46,6 +46,18 @@ public class GameManager : MonoBehaviour
         _nextLevelImage.enabled = false;
     }
 
+    private void Start()
+    {
+        if (_iconHandler != null)
+        {
+            _iconHandler.InitializeIcons(MaxNumberOfShots);
+        }
+        else
+        {
+            Debug.LogWarning("IconHandler not found! Make sure BirdIcons object is active in the scene.");
+        }
+    }
+
     public void UseShot()
     {
         _usedNumberOfShots++;
