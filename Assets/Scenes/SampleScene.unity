@@ -1486,6 +1486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _idleCam: {fileID: 1621932275}
   _followCam: {fileID: 1057616984}
+  _followDuration: 1.5
 --- !u!1 &608587016
 GameObject:
   m_ObjectHideFlags: 0
