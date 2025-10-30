@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f38c2060853636b4ea34e5e8a5c059c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - sunEffect: {fileID: 6632484920946500054, guid: 7bc45e4eaf506e249b4e655c9fb06af9, type: 3}
+  - rainEffect: {fileID: 5822000423743120442, guid: 2ee3afd366b60c44eb18958603e2048c, type: 3}
+  - cloudEffect: {fileID: 4967251779272099464, guid: 6e49012577fe0f644a9e7bae15cfcb7e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
