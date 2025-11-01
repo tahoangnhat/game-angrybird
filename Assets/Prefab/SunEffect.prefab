@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2413415018088328283}
   - component: {fileID: 3498759518788114912}
+  - component: {fileID: 2638753096004367140}
   m_Layer: 0
   m_Name: Sun_Bird_0
   m_TagString: Untagged
@@ -87,6 +88,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2638753096004367140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672505953830240375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073bc08e50a98ea479b533be4748e073, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 10
 --- !u!1 &6632484920946500054
 GameObject:
   m_ObjectHideFlags: 0
