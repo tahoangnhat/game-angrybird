@@ -5,11 +5,11 @@ public class MainMenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Scene1"); // 👈 thay bằng tên scene bạn muốn load
+        SceneManager.LoadScene("Scene1"); 
     }
 
     public void Logout()
     {
-        SceneManager.LoadScene("SceneLogin"); // 👈 quay lại trang đăng nhập
+        SceneManager.LoadScene("SceneLogin"); 
     }
 }

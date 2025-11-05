@@ -363,7 +363,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 874745143, guid: 7b946b99a99d3ba4e843f91f3dd2f294, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -591,6 +591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 6632484920946500054, guid: 7bc45e4eaf506e249b4e655c9fb06af9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -746,7 +750,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -2627,6 +2631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RainEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 306324532993464788, guid: 2ee3afd366b60c44eb18958603e2048c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 528630632466580393, guid: 2ee3afd366b60c44eb18958603e2048c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3164,7 +3172,7 @@ Transform:
   m_GameObject: {fileID: 2136650345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.399, y: -2.351, z: 0}
+  m_LocalPosition: {x: -6, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3381,6 +3389,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3360049010660978057, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360049010660978057, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360049010660978057, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360049010660978057, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4535846403250461226, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
       propertyPath: m_Name
       value: Effect
@@ -3389,6 +3413,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 458567233}
+    - target: {fileID: 7884267746843317907, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884267746843317907, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884267746843317907, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7884267746843317907, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010082178671316735, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010082178671316735, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010082178671316735, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010082178671316735, guid: 27f855bc975cdaf4d92d8764bd7dbb5c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

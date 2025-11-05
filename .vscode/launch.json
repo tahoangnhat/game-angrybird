@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "UDP.UDPServer",
+            "projectName": "game-angrybird_57a985d9"
+        },
+        {
+            "name": "Attach to Unity",
+            "type": "vstuc",
+            "request": "attach"
+        }
+    ]
+}

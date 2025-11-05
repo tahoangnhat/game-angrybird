@@ -3,7 +3,6 @@ using TMPro;
 public class TotalScoreUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _totalScoreText;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void OnEnable()
     {

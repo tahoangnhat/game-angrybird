@@ -235,6 +235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RainEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 306324532993464788, guid: 2ee3afd366b60c44eb18958603e2048c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 528630632466580393, guid: 2ee3afd366b60c44eb18958603e2048c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -490,7 +494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 874745143, guid: 7b946b99a99d3ba4e843f91f3dd2f294, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1148,7 +1152,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: -5
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -2517,6 +2521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 6632484920946500054, guid: 7bc45e4eaf506e249b4e655c9fb06af9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3706,50 +3714,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1871279766}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1963748190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1963748192}
-  - component: {fileID: 1963748191}
-  m_Layer: 0
-  m_Name: WeatherSceneBinder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1963748191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963748190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ffe5c3d905a03f42b781ea1c7adfe25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1963748192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963748190}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.10623169, y: -0.3061242, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2122599803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3832,7 +3796,7 @@ Transform:
   m_GameObject: {fileID: 2136650345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.399, y: -2.351, z: 0}
+  m_LocalPosition: {x: -6, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4079,7 +4043,6 @@ SceneRoots:
   - {fileID: 9041293517451653510}
   - {fileID: 1111838200}
   - {fileID: 2122599803}
-  - {fileID: 1963748192}
   - {fileID: 1078802302}
   - {fileID: 1665823888}
   - {fileID: 167368523}

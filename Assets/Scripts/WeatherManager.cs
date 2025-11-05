@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 #region Data Models
 [Serializable]
@@ -30,38 +31,70 @@ public class WeatherManager : MonoBehaviour
     public static WeatherManager Instance; // ✅ Singleton
 
     [Header("API Settings")]
-    [SerializeField] private string apiKey = "YOUR_API_KEY";  // ⚠️ Nhập key thật
+    [SerializeField] private string apiKey = "YOUR_API_KEY";
     [SerializeField] private string city = "Ho Chi Minh";
     private string apiUrl = "https://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";
 
     [Header("Weather Effects")]
-    public GameObject sunEffect;    // ☀️ Prefab mặt trời
-    public GameObject rainEffect;   // 🌧 Prefab mưa
-    public GameObject cloudEffect;  // ☁️ Prefab mây
+    public GameObject sunEffect;
+    public GameObject rainEffect;
+    public GameObject cloudEffect;
 
     [Header("Optional")]
-    public float checkInterval = 300f; // 5 phút
+    public float checkInterval = 300f;
 
     private string currentWeather = "";
 
     private void Awake()
     {
-        // ✅ Đảm bảo chỉ có 1 WeatherManager tồn tại xuyên suốt game
+        // ✅ Giữ lại 1 bản duy nhất
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else if (Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private void Start()
     {
         StartCoroutine(GetWeatherLoop());
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+{
+    Debug.Log($"🌍 Scene {scene.name} loaded — refreshing weather...");
+
+    // 🔍 Tìm lại các hiệu ứng trong scene mới (nếu có)
+    var newSun = GameObject.Find("SunEffect");
+    var newRain = GameObject.Find("RainEffect");
+    var newCloud = GameObject.Find("CloudEffect");
+
+    if (newSun || newRain || newCloud)
+    {
+        SetEffects(newSun, newRain, newCloud);
+        Debug.Log("🔗 Re-linked effects in new scene");
+    }
+
+    // 🔁 Gọi lại API (chỉ nếu vẫn còn tồn tại)
+    if (this != null && gameObject != null)
+        StartCoroutine(GetWeather());
+}
+
 
     IEnumerator GetWeatherLoop()
     {
@@ -137,7 +170,12 @@ public class WeatherManager : MonoBehaviour
         }
     }
 
-    // ✅ Dành cho scene khác để cập nhật object hiệu ứng
+    public void SetCity(string newCity)
+    {
+        city = newCity;
+        StartCoroutine(GetWeather());
+    }
+
     public void SetEffects(GameObject sun, GameObject rain, GameObject cloud)
     {
         sunEffect = sun;
@@ -146,12 +184,5 @@ public class WeatherManager : MonoBehaviour
 
         if (!string.IsNullOrEmpty(currentWeather))
             ChangeEnvironment(currentWeather);
-    }
-
-    // ✅ Nếu muốn thay thành phố khác khi đang chạy
-    public void SetCity(string newCity)
-    {
-        city = newCity;
-        StartCoroutine(GetWeather());
     }
 }
