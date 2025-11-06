@@ -504,8 +504,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 728875050, guid: 7fb08d5de6ad57f42a2bd592d35b2b75, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: -8457416736389749124, guid: cd327142076e0c346a282a367ea05ad1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1384,6 +1384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _idleCam: {fileID: 1621932275}
   _followCam: {fileID: 1057616984}
+  _followDuration: 1.5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,9 +1716,9 @@ MonoBehaviour:
   CameraDistance: 10
   DeadZoneDepth: 0
   Composition:
-    ScreenPosition: {x: -0.2, y: 0.1}
+    ScreenPosition: {x: -0.1, y: 0.15}
     DeadZone:
-      Enabled: 0
+      Enabled: 1
       Size: {x: 0.2, y: 0.2}
     HardLimits:
       Enabled: 0
@@ -1725,7 +1726,7 @@ MonoBehaviour:
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
   TargetOffset: {x: 0, y: 0, z: 0}
-  Damping: {x: 1, y: 1, z: 1}
+  Damping: {x: 2.5, y: 2.5, z: 2.5}
   Lookahead:
     Enabled: 0
     Time: 0
@@ -2551,8 +2552,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1172722934, guid: 7fb08d5de6ad57f42a2bd592d35b2b75, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: -2760162207952947573, guid: cd327142076e0c346a282a367ea05ad1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3201,7 +3202,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8206506057252809037, guid: 83d89050852cb1649bf381f07535ddea, type: 3}
+    - {fileID: 1562990294750648466, guid: 83d89050852cb1649bf381f07535ddea, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83d89050852cb1649bf381f07535ddea, type: 3}
