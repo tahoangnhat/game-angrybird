@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 81f19cd7c95f7374d99bb671ff7d3373
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5005889574125281690
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_0
+  - first:
+      213: 5563128726317800714
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_1
+  - first:
+      213: 6379336260611218654
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_2
+  - first:
+      213: -1611886202681931134
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_3
+  - first:
+      213: -9062383447966499477
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_4
+  - first:
+      213: 9124235083314825536
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_5
+  - first:
+      213: 4893339919043671416
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_6
+  - first:
+      213: -5193676621997862409
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_7
+  - first:
+      213: -5202452037894659954
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_8
+  - first:
+      213: 5058775313256497410
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_9
+  - first:
+      213: -8260082661472900733
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_10
+  - first:
+      213: 3976298059381577760
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_11
+  - first:
+      213: -5860869355655714510
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_12
+  - first:
+      213: 5041038025950706071
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_13
+  - first:
+      213: -3432823402609559593
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_14
+  - first:
+      213: -7189225406218435146
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_15
+  - first:
+      213: 5302399980783292642
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_16
+  - first:
+      213: 454661121412805662
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_17
+  - first:
+      213: 5205619112217855979
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_18
+  - first:
+      213: -1758882468569338193
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_19
+  - first:
+      213: -5881502427331225051
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_20
+  - first:
+      213: 7561335538176379699
+    second: Mobile - Angry Birds - Miscellaneous - Early Level Selection_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 511
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e5e6564f1878ab0800000000000000
+      internalID: -5005889574125281690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 482
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d91f31a14343d40800000000000000
+      internalID: 5563128726317800714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc1084a784f78850800000000000000
+      internalID: 6379336260611218654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 155
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a4acee90e61a9e0800000000000000
+      internalID: -1611886202681931134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 154
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6db395c442fb3280800000000000000
+      internalID: -9062383447966499477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 154
+        width: 99
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049032c477bcf9e70800000000000000
+      internalID: 9124235083314825536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 155
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87536d7fab2a8e340800000000000000
+      internalID: 4893339919043671416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 81
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1119b21aa5ce7b0800000000000000
+      internalID: -5193676621997862409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 102
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8028407f6d2dc7b0800000000000000
+      internalID: -5202452037894659954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 67
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2014b294851643640800000000000000
+      internalID: 5058775313256497410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_10
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 77
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3896b8b459a4e5d80800000000000000
+      internalID: -8260082661472900733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 132
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02893868406ae2730800000000000000
+      internalID: 3976298059381577760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2392b2d8f520aaea0800000000000000
+      internalID: -5860869355655714510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 77
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7993704406d55f540800000000000000
+      internalID: 5041038025950706071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d73fce9d492c50d0800000000000000
+      internalID: -3432823402609559593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5032c459dba3c90800000000000000
+      internalID: -7189225406218435146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 100
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e050af60b8e59940800000000000000
+      internalID: 5302399980783292642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14bdfa81e74f4600800000000000000
+      internalID: 454661121412805662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7cab380031e3840800000000000000
+      internalID: 5205619112217855979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae234bb6b13797e0800000000000000
+      internalID: -1758882468569338193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_20
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a135134b4b06ea0800000000000000
+      internalID: -5881502427331225051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Angry Birds - Miscellaneous - Early Level Selection_21
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b4a8c3c924fe860800000000000000
+      internalID: 7561335538176379699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_0: -5005889574125281690
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_1: 5563128726317800714
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_10: -8260082661472900733
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_11: 3976298059381577760
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_12: -5860869355655714510
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_13: 5041038025950706071
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_14: -3432823402609559593
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_15: -7189225406218435146
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_16: 5302399980783292642
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_17: 454661121412805662
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_18: 5205619112217855979
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_19: -1758882468569338193
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_2: 6379336260611218654
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_20: -5881502427331225051
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_21: 7561335538176379699
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_3: -1611886202681931134
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_4: -9062383447966499477
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_5: 9124235083314825536
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_6: 4893339919043671416
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_7: -5193676621997862409
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_8: -5202452037894659954
+      Mobile - Angry Birds - Miscellaneous - Early Level Selection_9: 5058775313256497410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
